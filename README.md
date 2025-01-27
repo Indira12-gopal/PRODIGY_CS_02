@@ -12,9 +12,9 @@ This repository contains a Python script that provides basic image encryption an
 
 This project requires the Python Imaging Library (PIL), which is available through the `Pillow` package. You can install the required dependencies by running:
 
-'''bash
-pip install Pillow
-'''
+```bash
+pip install image
+```
 Code Explanation
 The script uses the PIL library to open and manipulate the image.
 The encrypt_image function swaps the red and blue channels of the image to encrypt it.
